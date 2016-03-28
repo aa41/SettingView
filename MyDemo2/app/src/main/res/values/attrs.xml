@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingView">
+        <attr name="singleMode" format="boolean"></attr>
+        <attr name="hasIcon" format="boolean"></attr>
+        <attr name="textSetting" format="string|reference"></attr>
+        <attr name="iconSetting" format="reference"></attr>
+        <attr name="iconWidth" format="dimension|reference"></attr>
+        <attr name="iconHeight" format="dimension|reference"></attr>
+        <attr name="textSize" format="dimension|reference"></attr>
+        <attr name="textMarginIcon" format="dimension|reference"></attr>
+        <attr name="settingPadding" format="dimension|reference"></attr>
+        <attr name="arrowSetting" format="reference"></attr>
+        <attr name="arrowWidth" format="dimension|reference"></attr>
+        <attr name="arrowHeight" format="dimension|reference"></attr>
+        <attr name="textSettingColor" format="color|reference"></attr>
+        <attr name="settingBackgourndColor" format="color|reference"></attr>
+        <attr name="settingsMarginTop" format="dimension|reference"></attr>
+        <attr name="settingsMarginBottom" format="dimension|reference"></attr>
+    </declare-styleable>
+
+</resources>

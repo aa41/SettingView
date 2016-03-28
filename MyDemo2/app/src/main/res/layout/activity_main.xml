@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+  <com.example.mydemo.SettingView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/test"
+      app:hasIcon="true"
+      app:singleMode="false"
+      app:settingBackgourndColor="#fff"
+      app:textSettingColor="#233"
+      app:iconSetting="@mipmap/ic_launcher"
+      app:textSetting="@string/app_name"
+      app:iconWidth="20dp"
+      app:iconHeight="20dp"
+      app:arrowHeight="20dp"
+      app:arrowWidth="20dp"
+      app:textMarginIcon="10dp"
+      app:settingsMarginTop="20dp"
+      app:settingPadding="10dp"
+      ></com.example.mydemo.SettingView>
+</RelativeLayout>
